@@ -11,7 +11,7 @@
 
 ## Cours
 
-- [ ] [Erreurs](./erreurs)
+- [X] [Erreurs](./erreurs)
 - [ ] [Cookies](./cookies)
 - [ ] [Sessions](./sessions)
 - [ ] [Fichiers](./fichiers)
