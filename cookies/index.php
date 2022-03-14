@@ -3,8 +3,10 @@
 /**
  * Ajout d'un cookie à une requête
  * @see https://www.php.net/manual/en/function.setcookie.php
+ * @see https://www.php.net/manual/en/function.random-bytes.php
+ * @see https://www.php.net/manual/en/function.bin2hex.php
  */
-setcookie("ESGI_SESSION_ID", "123456789");
+setcookie("TRACKING_ID", bin2hex(random_bytes(16)), time() + 3600, "/");
 
 /**
  * Récupérer tous les cookies

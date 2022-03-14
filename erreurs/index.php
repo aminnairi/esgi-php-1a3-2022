@@ -43,3 +43,5 @@ try {
     // Ce bloc est exécuté quoi qu'il arrive (exception ou non)
     echo "Après mon script";
 }
+
+var_dump($_COOKIE);

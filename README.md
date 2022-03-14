@@ -12,7 +12,7 @@
 ## Cours
 
 - [X] [Erreurs](./erreurs)
-- [ ] [Cookies](./cookies)
+- [X] [Cookies](./cookies)
 - [ ] [Sessions](./sessions)
 - [ ] [Fichiers](./fichiers)
 - [ ] [Base de données](./base-de-donnees)
