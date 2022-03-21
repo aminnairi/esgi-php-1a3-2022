@@ -1,9 +1,9 @@
-<?php
-
-// Envoyer un fichier à un serveur PHP
-// Récupérer le nom d'un fichier reçu par un client
-// Récupérer le type d'un fichier reçu par un client
-// Récupérer la taille d'un fichier reçu par un client
-// Récupérer le nom temporaire d'un fichier reçu par un client
-// Déplacer un fichier envoyé par un client dans un dossier local pour sauvegarde permanente
-// Envoyer plusieurs fichiers
+<!DOCTYPE html>
+<html>
+    <body>
+        <form method="POST" action="http://localhost/esgi-php-1a3-2022/fichiers/file-handler.php" enctype="multipart/form-data">
+            <input type="file" name="picture">
+            <button type="submit">Envoyer</button>
+        </form>
+    </body>
+</html>
